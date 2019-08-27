@@ -8,13 +8,13 @@ public class CheckInstalledApp : MonoBehaviour {
     //We are Checking if Robotipede is installed on your current Device
 
     //For Android App we check the Bundle ID.
-    public string AppToCheckAndroid = "com.SixteenBitGames.Robotipede";
+    public string AppToCheckAndroid = "com.SixteenBitGames.Bezerk";
 
     //For iOS we needed a bit of a work around, so we are checking if the app can open a specific URL and we are checking if that URL can be opened
-    public string AppToCheckiOS = "SixteenBitApp00";
+    public string AppToCheckiOS = "SixteenBitApp06";
 
-    public string WebStoreForAndroid = "https://play.google.com/store/apps/details?id=com.SixteenBitGames.Robotipede";
-    public string WebStoreForiOS = "https://itunes.apple.com/us/app/robotipede-lite/id1080199352?ls=1&mt=8";
+    public string WebStoreForAndroid = "https://play.google.com/store/apps/details?id=com.SixteenBitGames.Bezerk";
+    public string WebStoreForiOS = "https://itunes.apple.com/us/app/new-berzerk/id1171452875?ls=1&mt=8";
 
     public Text textBx;
     public Image img;
