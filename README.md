@@ -23,6 +23,8 @@ Look at ```CheckInstalledApp.cs``` for an example of this
 On iOS App checking is a lot more complicated since there is no Package Manager.
 So there is no way to check to see if an app is actually installed. But there is a workaround.
 
+**THIS WILL NOT WORK ON IOS 9 or LOWER**
+
 How the 16 Bit Unity App Detection on iOS works is by checking if there is an App installed which can open a specific web link.
 
 The code for this is located in ```AppCheck.mm``` in ./Assets/Plugins/iOS
