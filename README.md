@@ -1,6 +1,8 @@
 # Unity Android and iOS App Detection Plugin
 Unity Android and iOS Ability to Detect if a specific app has been installed
 
+Download the [Unity Package Here](https://github.com/the16bitgamer/Unity_Android_iOS_App_Detection/raw/master/16BitAppDetection.unitypackage)
+
 ## Checking if an App is installed
 To check if an app is installed first you need to initilize the app with
 
@@ -10,14 +12,14 @@ To Check if an app is installed call ```CheckInstalledApp(string APPID)```
 
 Android and iOS have different ways of checking if an Application is installed Follow the Guides bellow to make sure you have everything setup to check for the installed apps
 
-##Checking Android Apps
+## Checking Android Apps
 On Android App checking is done through the Package Manager in the **appcheck-release.aar** in ./Assets/Plugins/Android
 
 To Check for an Android App you will need to the **Package Name** for the app, i.e. com.android.Chrome for Google Chrome
 
 Look at ```CheckInstalledApp.cs``` for an example of this
 
-##Checking iOS Apps
+## Checking iOS Apps
 On iOS App checking is a lot more complicated since there is no Package Manager.
 So there is no way to check to see if an app is actually installed. But there is a workaround.
 
@@ -39,7 +41,7 @@ So what you need to do is add the ability to open your app with a unique weblink
 2. Add The Following to your **.plist**
 
 
-###If you want your app to be detected add the Following
+### If you want your app to be detected add the Following
 ```
 <key>CFBundleURLTypes</key>
 <array>
@@ -57,7 +59,7 @@ INSERT_URL_WHICH_THE_APP_CAN_REACT_TO_HERE can be anything like ```APP00``` or `
 
 INSERT_APP_ID_HERE is your application bundle ID I use ```com.CompanyName.${PRODUCT_NAME}``` for my apps
 
-###If you want to detect other apps
+### If you want to detect other apps
 ```
 <key>LSApplicationQueriesSchemes</key>
     <array>
