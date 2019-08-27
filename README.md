@@ -40,7 +40,7 @@ So what you need to do is add the ability to open your app with a unique weblink
 1. Add you checks to your code and build your App to Xcode
    - In Xcode we can add the attributes for the App Sensing
    
-2. Add The Following to your **.plist**
+2. Add The Following to your **Info.plist**
 
 
 ### If you want your app to be detected add the Following
