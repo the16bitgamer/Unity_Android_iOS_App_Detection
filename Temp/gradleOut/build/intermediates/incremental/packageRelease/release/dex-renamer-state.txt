@@ -1,0 +1,4 @@
+#Tue Aug 27 11:20:33 ADT 2019
+base.0=F\:\\16 Bit Git Repro\\Unity_Android_iOS_App_Detection\\Temp\\gradleOut\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

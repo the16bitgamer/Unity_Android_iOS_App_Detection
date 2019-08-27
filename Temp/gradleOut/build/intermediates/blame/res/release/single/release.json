@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\16 Bit Git Repro\\Unity_Android_iOS_App_Detection\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_app_banner.png.flat",
+        "source": "F:\\16 Bit Git Repro\\Unity_Android_iOS_App_Detection\\Temp\\gradleOut\\src\\main\\res\\drawable-xhdpi\\app_banner.png"
+    },
+    {
+        "merged": "F:\\16 Bit Git Repro\\Unity_Android_iOS_App_Detection\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "F:\\16 Bit Git Repro\\Unity_Android_iOS_App_Detection\\Temp\\gradleOut\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "F:\\16 Bit Git Repro\\Unity_Android_iOS_App_Detection\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "F:\\16 Bit Git Repro\\Unity_Android_iOS_App_Detection\\Temp\\gradleOut\\src\\main\\res\\mipmap-anydpi-v26\\app_icon.xml"
+    },
+    {
+        "merged": "F:\\16 Bit Git Repro\\Unity_Android_iOS_App_Detection\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "F:\\16 Bit Git Repro\\Unity_Android_iOS_App_Detection\\Temp\\gradleOut\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "F:\\16 Bit Git Repro\\Unity_Android_iOS_App_Detection\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "F:\\16 Bit Git Repro\\Unity_Android_iOS_App_Detection\\Temp\\gradleOut\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+    },
+    {
+        "merged": "F:\\16 Bit Git Repro\\Unity_Android_iOS_App_Detection\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_app_icon.png.flat",
+        "source": "F:\\16 Bit Git Repro\\Unity_Android_iOS_App_Detection\\Temp\\gradleOut\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+    }
+]
