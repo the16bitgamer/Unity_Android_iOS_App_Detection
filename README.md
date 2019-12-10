@@ -1,7 +1,7 @@
 # Unity Android and iOS App Detection Plugin
 Unity Android and iOS Ability to Detect if a specific app has been installed
 
-Download the [Unity Package Here](https://github.com/the16bitgamer/Unity_Android_iOS_App_Detection/raw/master/16BitAppDetection.unitypackage)
+Download the [Unity Package Here](https://github.com/the16bitgamer/Unity_Android_iOS_App_Detection/releases/tag/v1.0)
 
 ## Checking if an App is installed
 To check if an app is installed first you need to initilize the app with
