@@ -33,27 +33,14 @@ public class GetAppInfo {
     [DllImport("__Internal")]
     private static extern bool CheckApp(string URL);
 
-    bool compatible;
 
     void Initilized()
-    {
-        int iOSVersion = Int32.Parse(Device.systemVersion[0]);
-        if(iOSVersion > 9)
-        {
-            compatible = true;
-            InitilizeAppCheck();
-        }
-        else
-        {
-            Debug.LogWarning("16 Bit App Check Warning: Current Device is using iOS " + iOSVersion + ". Please update to iOS 10 or higher for App Detection to work");
-        }
+    {   
+        InitilizeAppCheck();
     }
 
     public bool CheckApps(string APP)
     {
-        if(!compatible)
-            return compatible;
-
         bool check = CheckApp(APP);
         return check;
     }

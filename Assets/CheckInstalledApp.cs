@@ -25,21 +25,24 @@ public class CheckInstalledApp : MonoBehaviour {
         appCheck = new GetAppInfo();
     }
 	
-	void Update () {
+	void Update ()
+    {
+        if (appCheck != null)
+        {
+            string appToCheck = AppToCheckiOS;
+            if (CheckAndroid)
+            {
+                appToCheck = AppToCheckAndroid;
+            }
 
-        string appToCheck = AppToCheckiOS;
-        if(CheckAndroid)
-        {
-            appToCheck = AppToCheckAndroid;
-        }
-
-        if (appCheck.CheckInstalledApp(appToCheck))
-        {
-            AppInstalled();
-        }
-        else
-        {
-            AppNotInstalled();
+            if (appCheck.CheckInstalledApp(appToCheck))
+            {
+                AppInstalled();
+            }
+            else
+            {
+                AppNotInstalled();
+            }
         }
     }
 
