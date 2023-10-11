@@ -13,7 +13,13 @@ To Check if an app is installed call ```CheckInstalledApp(string APPID)```
 Android and iOS have different ways of checking if an Application is installed Follow the Guides bellow to make sure you have everything setup to check for the installed apps
 
 ## Checking Android Apps
-On Android App checking is done through the Package Manager in the **appcheck-release.aar** in ./Assets/Plugins/Android
+Due to recent changes with Android Permissions, how we check for apps installed on Android has been made more complicated. [You need to request permission to query specific packages](https://developer.android.com/training/package-visibility/declaring), or [request permission to query all packages](https://developer.android.com/reference/android/Manifest.permission.html#QUERY_ALL_PACKAGES).
+
+This is both a priviacy concern and out of scope for this project. So you will first need to download [the Android Studio Project NetworkCheck which can be found here](https://github.com/the16bitgamer/NetworkCheck).
+
+In the AppCheck project you will need to add the query as stated in the Android Documentation [here](https://developer.android.com/training/package-visibility/declaring)
+
+Build the AppCheck as an aar, and add it to your project in ./Assets/Plugins/Android
 
 To Check for an Android App you will need to the **Package Name** for the app, i.e. com.android.Chrome for Google Chrome
 
